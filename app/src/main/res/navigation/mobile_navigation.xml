@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation">
+
+    <navigation android:id="@+id/navigation"
+        app:startDestination="@id/nav_processing">
+        <fragment
+            android:id="@+id/nav_processing"
+            android:name="phucdv.android.magicnote.ui.processing.ProcessingFragment"
+            android:label="@string/processing" />
+        <fragment
+            android:id="@+id/nav_archive"
+            android:name="phucdv.android.magicnote.ui.archive.ArchiveFragment"
+            android:label="@string/archive" />
+        <fragment
+            android:id="@+id/nav_recycle_bin"
+            android:name="phucdv.android.magicnote.ui.recyclebin.RecycleBinFragment"
+            android:label="@string/recycle_bin" />
+        <action
+            android:id="@+id/action_global_editNoteFragment"
+            app:destination="@id/nav_edit_note"
+            app:enterAnim="@anim/enter_animate"
+            app:exitAnim="@anim/exit_animate"
+            app:popEnterAnim="@anim/pop_enter_animate"
+            app:popExitAnim="@anim/pop_exit_animate" />
+    </navigation>
+
+    <fragment
+        android:id="@+id/nav_edit_note"
+        android:name="phucdv.android.magicnote.ui.editnote.EditNoteFragment"
+        android:label="@string/edit_note" >
+    </fragment>
+    <activity
+        android:id="@+id/nav_loginActivity"
+        android:name="phucdv.android.magicnote.authentic.LoginActivity"
+        android:label="@string/login" />
+    <activity
+        android:id="@+id/nav_updatePasswordActivity"
+        android:name="phucdv.android.magicnote.authentic.UpdatePasswordActivity"
+        android:label="@string/change_pwd" />
+</navigation>

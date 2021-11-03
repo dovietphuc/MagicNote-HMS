@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_processing"
+            android:icon="@drawable/ic_baseline_emoji_objects_24"
+            android:title="@string/processing" />
+        <item
+            android:id="@+id/nav_archive"
+            android:icon="@drawable/ic_baseline_archive_24"
+            android:title="@string/archive" />
+        <item
+            android:id="@+id/nav_recycle_bin"
+            android:icon="@drawable/ic_baseline_delete_24"
+            android:title="@string/recycle_bin" />
+
+    </group>
+    <item android:title="@string/authentic">
+        <menu>
+            <item android:id="@+id/nav_updatePasswordActivity"
+                android:icon="@drawable/ic_baseline_edit_24"
+                android:title="@string/change_pwd"/>
+            <item
+                android:id="@+id/nav_loginActivity"
+                android:icon="@drawable/ic_baseline_account_circle_24"
+                android:title="@string/login" />
+        </menu>
+    </item>
+</menu>

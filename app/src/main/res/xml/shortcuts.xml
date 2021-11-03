@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:shortcutId="compose"
+        android:enabled="true"
+        android:icon="@mipmap/ic_shortcut_round"
+        android:shortcutShortLabel="@string/new_note">
+        <intent
+            android:action="phucdv.action.ACTION_NEW_NOTE"
+            android:targetPackage="phucdv.android.magicnote"
+            android:targetClass="phucdv.android.magicnote.MagicNoteActivity" />
+        <!-- If your shortcut is associated with multiple intents, include them
+             here. The last intent in the list determines what the user sees when
+             they launch this shortcut. -->
+<!--        <categories android:name="android.shortcut.conversation" />-->
+<!--        <capability-binding android:key="actions.intent.CREATE_MESSAGE" />-->
+    </shortcut>
+    <!-- Specify more shortcuts here. -->
+</shortcuts>

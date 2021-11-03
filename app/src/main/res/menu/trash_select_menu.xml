@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/action_change_color"
+        android:title="@string/change_color"
+        android:icon="@drawable/ic_baseline_color_lens_24"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/action_to_processing"
+        android:title="@string/processing"
+        android:icon="@drawable/ic_baseline_emoji_objects_24"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/action_to_archive"
+        android:title="@string/archive"
+        android:icon="@drawable/ic_baseline_archive_24"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/action_share"
+        android:title="@string/share"
+        android:icon="@drawable/ic_baseline_share_24"
+        app:showAsAction="never"
+        android:visible="false"/>
+
+    <item
+        android:id="@+id/action_pin"
+        android:title="@string/pin"
+        android:icon="@drawable/ic_baseline_push_pin_24"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_unpin"
+        android:title="@string/unpin"
+        android:icon="@drawable/ic_unpin"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_completely_delete"
+        android:title="@string/completely_delete"
+        android:icon="@drawable/ic_baseline_delete_forever_24"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_select_all"
+        android:title="@string/select_all"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_done_select"
+        android:title="@string/done"
+        app:showAsAction="never"/>
+</menu>

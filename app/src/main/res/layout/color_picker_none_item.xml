@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="2dp"
+    android:id="@+id/background">
+
+    <ImageView
+        android:id="@+id/color_item"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:background="@color/white"
+        android:src="@drawable/ic_baseline_not_interested_24"/>
+</FrameLayout>

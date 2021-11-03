@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1089890582059",
+    "firebase_url": "https://magicnote-firebase-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "magicnote-firebase",
+    "storage_bucket": "magicnote-firebase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1089890582059:android:4b3eea68b787af7280b46e",
+        "android_client_info": {
+          "package_name": "phucdv.android.magicnote"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1089890582059-vmppdenekv0a509nacq4ascnoma51n0g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAHo1eOpyV7gJVunVOLmf0Eh2A477IbFRM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1089890582059-vmppdenekv0a509nacq4ascnoma51n0g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

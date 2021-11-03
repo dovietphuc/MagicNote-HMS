@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/quick_filter"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:translationY="-50dp"
+    android:orientation="horizontal"
+    android:visibility="gone">
+
+    <phucdv.android.magicnote.util.CheckableImageButton
+        android:id="@+id/filter_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/ic_outline_library_add_check_24"/>
+
+    <phucdv.android.magicnote.util.CheckableImageButton
+        android:id="@+id/filter_image"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/ic_baseline_image_24"/>
+
+    <ImageButton
+        android:id="@+id/filter_color"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/ic_baseline_color_lens_24"
+        android:background="@color/unchecked_button"/>
+
+    <ImageButton
+        android:id="@+id/filter_label"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/ic_baseline_label_24"
+        android:background="@color/unchecked_button"/>
+</LinearLayout>

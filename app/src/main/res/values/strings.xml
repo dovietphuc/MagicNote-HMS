@@ -1,0 +1,96 @@
+<resources>
+    <string name="app_name" translatable="false">Magic Note</string>
+    <string name="title_activity_magic_note" translatable="false">MagicNoteActivity</string>
+    <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
+    <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
+    <string name="nav_header_title" translatable="false">Magic note</string>
+    <string name="nav_header_subtitle">Not logged in yet!</string>
+    <string name="nav_header_desc" translatable="false">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="processing">Processing</string>
+    <string name="archive">Archive</string>
+    <string name="recycle_bin">Recycle bin</string>
+    <string name="edit_note">Edit note</string>
+    <string name="title">Title</string>
+    <string name="back_up">Back up</string>
+    <string name="undo">Undo</string>
+    <string name="redo">Redo</string>
+    <string name="notes">Notes</string>
+    <string name="note">Note</string>
+    <string name="add_checkbox">Add checkbox</string>
+    <string name="text_here">Text here…</string>
+    <string name="checkbox_item">Checkbox item</string>
+    <string name="none_text">No additional text</string>
+    <string name="warning">Warning</string>
+    <string name="warning_delete">This action will delete the note completely and cannot be undone</string>
+    <string name="confirm">Confirm</string>
+    <string name="next">Next</string>
+    <string name="add_photo">Add photo</string>
+    <string name="camera">Camera</string>
+    <string name="add_photo_from">Add photo from</string>
+    <string name="gallery">Gallery</string>
+    <string name="take_picture_from">Take picture from</string>
+    <string name="select_photo_from">Select photo from</string>
+    <string name="hand_drawing">Hand drawing</string>
+    <string name="change_color">Change color</string>
+    <string name="open">Open</string>
+    <string name="alarm">Alarm</string>
+    <string name="move_to_processing">Moved to processing</string>
+    <string name="delete">Deleted</string>
+    <string name="cancel">Cancel</string>
+    <string name="move_to_archive">Moved to archive</string>
+    <string name="completely_delete">Completely delete</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="date">Date</string>
+    <string name="date_time_picker">Date time picker</string>
+    <string name="time_created">Created: %1$s</string>
+    <string name="last_modify">Last modify: %1$s</string>
+    <string name="creator">Creator: %1$s</string>
+    <string name="reminder">Reminder</string>
+    <string name="pin">Pin</string>
+    <string name="unpin">Unpin</string>
+    <string name="share">Share</string>
+    <string name="restore">Restore</string>
+    <string name="select_note">Select note</string>
+    <string name="select_all">Select all</string>
+    <string name="what_you_want_to_do">What you want to do?</string>
+    <string name="done">Done</string>
+    <string name="move_to_trash">Moved to trash</string>
+    <string name="clear_trash">Clear trash</string>
+    <string name="search">Search</string>
+    <string name="new_note">New note</string>
+    <string name="appwidget_text" translatable="false">EXAMPLE</string>
+    <string name="configure" translatable="false">Configure</string>
+    <string name="add_widget">Add widget</string>
+    <string name="app_widget_description" translatable="false">This is an app widget description</string>
+    <string name="all_label">All label</string>
+    <string name="deselect">Deselect</string>
+    <string name="sign_up">Sign up</string>
+    <string name="backup_details">By Signing Up you can keep your notes online and if your phone is lost,stolen or Magic note is Uninstalled you can Restore them when you install Magic note</string>
+    <string name="email_address">Email address</string>
+    <string name="password">Password</string>
+    <string name="repeat_password">Repeat password</string>
+    <string name="already_signed_in_login">Already signed up? Login</string>
+    <string name="invalid_inputs">Invalid inputs</string>
+    <string name="sign_up_successful">Sign Up successful</string>
+    <string name="login">Login</string>
+    <string name="forget_password">Forget password?</string>
+    <string name="text_sign_up_now">Haven\'t sign up before? Sign Up Now</string>
+    <string name="auto_back_up">Auto back up</string>
+    <string name="logout">Logout</string>
+    <string name="password_reset_details">We just need your registered email to send you password reset instructions</string>
+    <string name="send_reset_password">Send reset password</string>
+    <string name="login_success">Login successful</string>
+    <string name="pls_insert_email">Please insert email address</string>
+    <string name="reset_pwd_has_been_send">Reset Password has been sent to your Email</string>
+    <string name="old_password">Old password</string>
+    <string name="new_password">New password</string>
+    <string name="repeat_new_password">Repeat new password</string>
+    <string name="change">Change</string>
+    <string name="don_t_want_to_change_password">Don\'t want to change password?</string>
+    <string name="authentic">Authentic</string>
+    <string name="change_pwd">Change password</string>
+    <string name="password_update">Password updated</string>
+</resources>

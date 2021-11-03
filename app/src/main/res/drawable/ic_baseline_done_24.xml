@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:viewportWidth="24"
+    android:viewportHeight="24"
+    android:width="24dp"
+    android:height="24dp">
+    <group android:name="check_group"
+        android:pivotX="12"
+        android:translateX="0"
+        android:pivotY="12">
+
+        <path
+            android:name="check_path"
+            android:strokeColor="@android:color/white"
+            android:strokeWidth="3"
+            android:pathData="M20,0L06,20M0,14,L07,19" />
+    </group>
+</vector>
